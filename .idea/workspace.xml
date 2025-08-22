@@ -4,12 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e67db193-3d98-44f0-8eda-4ae3b1388385" name="Changes" comment="" />
+    <list default="true" id="e67db193-3d98-44f0-8eda-4ae3b1388385" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisDemo/src/main/java/com/maxim/JedisDBPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/src/main/java/com/maxim/JedisDBPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisDemo/src/main/java/com/maxim/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisDemo/src/main/java/com/maxim/RedisQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/src/main/java/com/maxim/RedisQuery.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PaleBlue0619&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PaleBlue0619/JavaRedis.git&quot;,
+    &quot;accountId&quot;: &quot;da835a1f-e0a6-4e4b-81b3-4899c1e91d12&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -28,9 +56,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.RedisList.executor": "Run",
+    "Application.RedisString.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/RedisProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -42,7 +76,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RedisKey">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.maxim.Main" />
       <module name="RedisDemo" />
@@ -56,20 +90,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maxim.datatype.RedisKey" />
+      <module name="RedisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maxim.datatype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maxim.datatype.RedisList" />
+      <module name="RedisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maxim.datatype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maxim.datatype.RedisString" />
+      <module name="RedisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maxim.datatype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RedisKey" />
+        <item itemvalue="Application.RedisList" />
+        <item itemvalue="Application.RedisString" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
-      </set>
-    </attachedChunks>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e67db193-3d98-44f0-8eda-4ae3b1388385" name="Changes" comment="" />
@@ -78,7 +147,8 @@
       <option name="presentableId" value="Default" />
       <updated>1755791944291</updated>
       <workItem from="1755791945423" duration="340000" />
-      <workItem from="1755792316216" duration="33000" />
+      <workItem from="1755792316216" duration="719000" />
+      <workItem from="1755866792230" duration="2416000" />
     </task>
     <servers />
   </component>
@@ -92,11 +162,6 @@
           <url>file://$PROJECT_DIR$/RedisDemo/com.maxim/src/main/java/com/maxim/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/RedisDemo/src/main/java/com/maxim/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
