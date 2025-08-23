@@ -1,6 +1,7 @@
 package com.maxim;
 
 import redis.clients.jedis.Jedis;
+// String toy
 public class RedisQuery {
     // Jedis 增删改查
     public static void set(String key, String value) {

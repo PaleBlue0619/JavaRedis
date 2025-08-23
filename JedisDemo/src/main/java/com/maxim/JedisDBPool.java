@@ -9,6 +9,7 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 // Jedis 工具类
+// 由于Jedis本身是线程不安全的,且频繁的创建与销毁Jedis会带来一定的性能损耗,因而通常利用JedisDBPool连接池来管理Jedis
 public class JedisDBPool {
     public static JedisPool jedisPool;
     static {

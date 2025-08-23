@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.maxim</groupId>
-    <artifactId>RedisDemo</artifactId>
+    <artifactId>JedisDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
