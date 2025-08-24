@@ -15,8 +15,6 @@ public class RedisString {
         jedis.set("name", "Maxim");
         System.out.println(jedis.get("name"));
 
-
-
         // 方式2
         RedisQuery.set("name", "Maxim");
         System.out.println(RedisQuery.get("name"));

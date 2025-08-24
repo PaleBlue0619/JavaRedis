@@ -17,7 +17,7 @@ public class RedisSet {
         jedis.sadd("DemoSet", new String[]{"0","1"}); // 添加元素
         Long res = jedis.srem("DemoSet", "0"); // 移除元素(若不存在也不会报错, 会返回0, 删除成功则返回1)
         jedis.sadd("DemoSet", "1"); // 无需(不按照插入顺序/大小排序)+不重复
-;
+
         // Java中构造集合的多种方式
         // 1.直接使用数组
         // String[] data_set = new String[]{"1", "2", "3", "4", "5"};

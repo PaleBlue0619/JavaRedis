@@ -20,7 +20,6 @@ public class RedisList {
     */
     public static void main(String[] args)
     {
-        // 方式1
         Jedis jedis = JedisDBPool.getConnectJedis();  // 创建Jedis连接池
         if (jedis.exists("DemoList")){
             jedis.del("DemoList");
